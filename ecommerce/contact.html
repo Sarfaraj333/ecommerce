@@ -3,137 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="products.css">
+    
+
+    <style>
+        .bg{
+            background-image: url(https://nis.consulting/wp-content/uploads/2016/10/24_Contact-Us-Header_Background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            height: 90vh;
+            width: 100vw;
+            display: flex;
+        }
+        .bg h1{
+            padding-top: 8%;
+            font-size: 50px;
+            font-weight: 900;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(140, 224, 211);
+            
+
+        }
+        .bg h5{
+            font-weight: 500;
+            margin-top: 10px;
+            font-size: 15px;
+            color: aliceblue;
+            
+        }
+        .bg h6{
+            margin-top: 5%;
+            color: aliceblue;
+            
+        }
+        .bg  input{
+            width: 30%;
+            height: 30px;
+            padding: 5px;
+        }
+        .bg textarea{
+            width: 40%;
+            height: 80px;
+            padding: 5px;
+        }
+        .bg h6{
+            padding-bottom: 1.5%;
+        }
+        #send{
+            background-color:  rgb(173, 206, 216);
+            color: rgb(19, 60, 70);
+            border-radius: 5px;
+            height: 35px;
+            width: 13%;
+            font-weight: 700;
+            
+
+            
+        }
+        .part1{
+            width: 65%;
+
+        }
+        .part2{
+            width: 35%;
+            color: aliceblue;
+            margin-top: 15%;
+        }
+
+    </style>
 </head>
 <body>
-    
     <div class="nav-bar">
         
         <div class="right">
             <img src="image\LOGO1.png" alt="logo image" id="logo">
+            
         </div>
         <div class="left">
             <ul class="list">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
-                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="http://products">PRODUCTS</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="http://cart">CART</a></li>
             </ul>
         </div>
     </div>
-    <div class="box">
-        <table class="products">
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\laptop_PNG.png" alt="product">
-                    <div class="product-info">
-                        <h3>Asus S14 flip</h3><p>The ASUS S14 Flip boasts a powerful Intel Core i7 processor <br> up to 16GB RAM, 1TB SSD storage, Intel Iris Xe graphics, <br> and advanced cooling system for optimal performance and efficiency.<p><h5>Rating:⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">1,02,000</span>76,000 <span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\washingmachinepng.png" alt="product">
-                    <div class="product-info">
-                        <h3>Samsung washing machine</h3><p>Samsung washing machines offer efficient cleaning <br> EcoBubble technology, large capacity, digital inverter motor <br> and smart controls for superior laundry care.<p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">52,500</span>42,000 <span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>Apple iPhone</h3><p> 4-6GB RAM, 64GB-1TB storage, dual/triple 12MP cameras,<br>A-series chip, Face ID, LiDAR, non-removable battery<br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity.</p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-            <tr class="products-row">
-                <td class="product">
-                    <img src="image\LGfridge.png" alt="product">
-                    <div class="product-info">
-                        <h3>LG Refrigerator</h3><p>LG refrigerators feature large capacity, Smart Cooling <br> Inverter Linear Compressor, multi-air flow, and Wi-Fi connectivity  <br>for optimal freshness and efficiency.p><h5>Rating:⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="price">20,000</span>15,000<span class="discount">(25% Off)</span></h5> <button class="buynow">Add to cart</button>
-                    </div>
-                </td>
-            </tr>
-        </table>
+    
+    <div class="bg">
+        <div class="part1"><center>
+            <h1>Contact Us</h1>
+            <h5>We are here to help!</h5><br><br>
+            <h6>HOW CAN WE HELP YOU?</h6>
+            <input type="email" name="email" id="email" placeholder="Your email" required><br><br>
+            <textarea name="message" id="message" placeholder="Your message" required></textarea><br><br>
+            <button id="send">Send Message</button>
+        </center></div>
+        <div class="part2">
+            <h5>We're here to help and answer any questions you <br> might have. We look forward to hearing from you!</h5> <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa fa-map-marker" style="font-size:24px;color: aliceblue; margin-right: 5px;"></i> <br><br>
+                    </td>
+                    <td>
+                        Lucknow, Uttarpradesh, India <br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <i class="fa fa-phone" style="font-size: 21px;color:rgb(255, 255, 255); margin-right: 5px;"></i> <br><br>
+                    </td>
+                    <td>
+                        +919044455xxx <br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa fa-envelope" style="font-size:18px;color:rgb(255, 255, 255);margin-right: 5px;"></i>
+                    </td>
+                    <td>
+                        vsstore333@gmail.com 
+                    </td>
+                </tr>
+            </table>
+        </div>
+            
+        
     </div>
-
 </body>
 </html>
