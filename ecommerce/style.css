@@ -2,13 +2,26 @@
     padding: 0;
     margin: 0;
 }
-
+.header{
+    background-color: rgb(15, 15, 15);
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-content{
+    margin-left: 80%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
 .header-content li{
     padding: 5px 15px 0px 15px;
 }
 .header-content li a{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.397);
+    color: white;
+}
+.header-content a:hover{
+    color: rgb(152, 203, 207);
 }
 .nav-bar{
     display: flex;
