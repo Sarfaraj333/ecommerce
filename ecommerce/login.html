@@ -30,6 +30,10 @@
         a{
             color: rgb(10, 44, 54);
         }
+        span{
+            color: red;
+            margin-left: 10px;
+        }
     </style>
 </head>
 <body style="background: linear-gradient(to right, rgb(84, 215, 209),rgb(249, 249, 249));; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -39,13 +43,25 @@
         </h1>
         <h5 style="color: rgb(10, 44, 54);">Enter your credentials to login</h5><br/><br/>
         <div>
-            <input type="email" placeholder="Your email address" class="search" name="email address" required><br/><br/>
-            <input type="password" placeholder="Create a password" class="search" name="password" required><br/><br/>
-            <button id="btn">LOGIN</button><br/><br/><br/>
+            <input type="email" placeholder="Your email address" class="search" name="email address" id="email"><span id="e"></span><br/><br/>
+            <input type="password" placeholder="Create a password" class="search" name="password" id="pass"><span id="p"></span><br/><br/>
+            <button id="btn" onclick="login()">LOGIN</button><br/><br/><br/>
             <a href="">Forgot passsword?</a><br/><br/><br/><br/>
             <p>Don't have an account?<a href="sign_up.html">Sign Up</a></p>
         </div>
-        
     </center>
+    <script>
+        function login(){
+            let e=document.getElementById("email").value;
+            let p=document.getElementById("pass").value;
+            let x="*Invalid*";
+            if((/[a-zA-Z0-9]@[a-z].[a-z]/.test(e))==false){
+                document.getElementById("e").innerHTML=x;
+            }
+            if((/[a-zA-Z0-9@$_]/.test(p))==false){
+                document.getElementById("p").innerHTML=x;
+            }
+        }
+    </script>
 </body>
 </html>
